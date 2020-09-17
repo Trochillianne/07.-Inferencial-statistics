@@ -1,6 +1,6 @@
 Simulating the Central Limit Theorem from an Exponential distribution
 ================
-Victoria Mestre Runge
+Victoria Mestre Runge 
 11 setembre de 2020
 
 -   [Overview](#overview)
