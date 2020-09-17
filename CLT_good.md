@@ -22,13 +22,13 @@ To understand the CLT, we will display a simulation that generates a couple of r
 
 Let's then first display the simulated data that generates a 1000 random samples of the exponential distribution.
 
-<img src="CLT_good_files/figure-markdown_github/plot figure1-1.png" style="display: block; margin: auto;" />
+![](https://github.com/Trochillianne/07.-Inferencial-statistics/tree/master/Figures/plot1.png)
 
 The simulation of 1000 exponential random distributions makes an exponential shape, i.e. the Probability Distribution Function (PDF) exponentially declines from *x* = 0 to *x* = ∞. We also observe that the simulated mean of the Exponential distribtuion has a close match to the theoretical population mean.
 
 Showing up next, we will simulate the average distribution of 1000 simulations of 40 exponentials random variables to demostrate the CLT, i.e. we will test these estatement against the exponential distribution (*λ* = 0.2) by taking 1000 samples of sample size 40.
 
-<img src="CLT_good_files/figure-markdown_github/plot2-1.png" style="display: block; margin: auto;" />
+![](https://github.com/Trochillianne/07.-Inferencial-statistics/tree/master/Figures/plot2.png)
 
 In comparison, when we simulate the average distribution of 1000 simulations of 40 exponential random variables, we see that is close to a normal distribution, i.e. is symmetric around the mean with a bell-shape curve. We also observe that the simulated mean of the averaged Exponential distribtuion has a close match to the theoretical population mean.
 
@@ -36,7 +36,7 @@ In comparison, when we simulate the average distribution of 1000 simulations of 
 
 Figure 3 illustrate how the CLT works, i.e. as the number of simulations increases, the sample mean approaches the expected mean.
 
-![](CLT_good_files/figure-markdown_github/sampling%20distributed%20mean-1.png)
+![](https://github.com/Trochillianne/07.-Inferencial-statistics/tree/master/Figures/plot3.png)
 
 And as we saw in figure 2, the simulated mean of the exponential distribution has a close match to the theoretical population mean.
 
@@ -73,7 +73,7 @@ Theoretical Mean
 
 Figure 4 illustrate that as the number of simulations increases, the sample variance approaches the expected variance.
 
-![](CLT_good_files/figure-markdown_github/sampling%20distributed%20variance-1.png)
+![](https://github.com/Trochillianne/07.-Inferencial-statistics/tree/master/Figures/plot4.png)
 
 The theoretical value for the variance of the distribution of averages is given by the variance of the original population *σ*<sup>2</sup> divided by the number of samples *n* used to compute the averages. And again, considering the distribution of the average of 40 exponentials, the sampliing variance of the averaged exponential distribution also converges to the population variance.
 
@@ -124,7 +124,7 @@ We have already seen in figure 2 that the sampling distribution looks approximat
 
 Due to the central limit theorem, the averages of samples follow normal distribution, as we saw in figure 2. The q-q plot below also suggests the normality. The theoretical quantiles again match closely with the actual quantiles. These three methods of comparison prove that the distribution is approximately normal.
 
-![](CLT_good_files/figure-markdown_github/quantiles-1.png)
+![](https://github.com/Trochillianne/07.-Inferencial-statistics/tree/master/Figures/plot5.png)
 
 Conclusions
 -----------
