@@ -22,7 +22,7 @@ To understand the CLT, we will display a simulation that generates a couple of r
 
 Let's then first display the simulated data that generates a 1000 random samples of the exponential distribution.
 
-![](https://github.com/Trochillianne/07.-Inferencial-statistics/tree/master/Figures/plot1.png)
+![](http://github.com/Trochillianne/07.-Inferencial-statistics/tree/master/Figures/plot1.png)
 
 The simulation of 1000 exponential random distributions makes an exponential shape, i.e. the Probability Distribution Function (PDF) exponentially declines from *x* = 0 to *x* = ∞. We also observe that the simulated mean of the Exponential distribtuion has a close match to the theoretical population mean.
 
